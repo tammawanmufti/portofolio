@@ -4,8 +4,6 @@ import Project from "./Project";
 import { projects } from "@/app/api/project/data";
 
 const Projects = () => {
-  fetch;
-
   return (
     <section id="projects">
       <TitleSection className="px-4 md:hidden">Projects</TitleSection>
