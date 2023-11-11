@@ -74,7 +74,7 @@ export const projects: ProjectInfo[] = [
     startedAt: new Date("2021-10-01"),
     finishedAt: new Date("2022-03-01"),
     company: "Slash",
-    imageSrc: "/assets/hiapp.jpeg",
+    imageSrc: "/assets/hiapp.png",
     tags: [
       { title: "BLOC", url: "https://bloclibrary.dev/" },
       { title: "Flutter", url: "https://flutter.dev/" },
