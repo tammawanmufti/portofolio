@@ -6,7 +6,7 @@ import SocialMediaLinks from "../social-media-links";
 const About = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center gap-8 h-screen "
+      className="flex flex-col items-center justify-center gap-8 h-screen pb-16 "
       id="about"
     >
       <div className="md:hidden">

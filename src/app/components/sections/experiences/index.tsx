@@ -7,10 +7,10 @@ import { experiences } from "@/app/api/experience/data";
 const Experiences = () => {
   return (
     <section
-      className="flex flex-col gap-4 pb-16 scroll-smooth "
+      className="flex flex-col gap-4 pb-16 scroll-smooth"
       id="experiences"
     >
-      <TitleSection className="mb-8 md:hidden">Experience</TitleSection>
+      <TitleSection className="md:hidden">Experience</TitleSection>
       {experiences.map((item) => (
         <ExperienceItem key={item.title} data={item} />
       ))}
