@@ -10,7 +10,7 @@ const Experiences = () => {
       className="flex flex-col gap-4 pb-16 scroll-smooth"
       id="experiences"
     >
-      <TitleSection className="md:hidden">Experience</TitleSection>
+      <TitleSection className="mt-20 md:hidden">Experience</TitleSection>
       {experiences.map((item) => (
         <ExperienceItem key={item.title} data={item} />
       ))}

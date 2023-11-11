@@ -85,7 +85,7 @@ export const projects: ProjectInfo[] = [
   },
   {
     title: "Cisea",
-    contributedAs: "Flutter Developer",
+    contributedAs: "Lead Flutter Developer",
     allowRequestAccess: false,
     imageSrc: "/assets/cisea.png",
     description:

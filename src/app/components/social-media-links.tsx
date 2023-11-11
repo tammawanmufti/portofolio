@@ -28,13 +28,13 @@ const SocialMediaLinks = () => {
   ];
 
   return (
-    <div className={`flex flex-row gap-4 mt-8  `}>
+    <div className={`flex flex-row gap-4 mt-8 h-14 `}>
       {socialMedias.map((item) => (
         <Link
           key={item.link}
           href={item.link}
           target="_blank"
-          className={`hover:bg-[#EDEDED] px-3 pb-3 rounded-md text-3xl  text-light-brown `}
+          className={`hover:bg-[#EDEDED] hover:text-4xl px-3 pb-3 rounded-md text-3xl  text-light-brown transition-all duration-300`}
         >
           {item.icon}
         </Link>

@@ -43,18 +43,18 @@ const Navigation = () => {
   return (
     <ul className="my-16 gap-5">
       {menu.map(({ id, title }, index) => (
-        <li key={id} className={`group`}>
+        <li key={id} className={`group flex-row h-10 transition-all`}>
           <a
             href={id}
-            className={`text-lg pt-4 group-hover:font-bold
-                 ${activeIndex === index ? "font-semibold " : ""}`}
+            className={`text-lg group-hover:font-bold border-black  duration-300
+                 ${activeIndex === index ? "font-semibold text-2xl pl-2" : ""}`}
           >
             {title}
           </a>
           <div
-            className={`w-40 bg-black h-[${
-              activeIndex === index ? 2 : 1
-            }px] group-hover:h-[3px]`}
+            className={`${
+              activeIndex === index ? "w-52" : "w-40 "
+            } h-[2px] bg-black  group-hover:w-48 duration-700`}
           />
         </li>
       ))}
