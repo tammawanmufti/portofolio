@@ -54,6 +54,7 @@ export const projects: ProjectInfo[] = [
       },
     ],
     tags: [
+      { title: "Flutter", url: "https://flutter.dev/" },
       { title: "BLOC", url: "https://bloclibrary.dev/" },
       {
         title: "Clean Architecture",
@@ -61,7 +62,6 @@ export const projects: ProjectInfo[] = [
       },
       { title: "Codemagic", url: "https://docs.codemagic.io/" },
       { title: "Firebase", url: "https://firebase.google.com/docs" },
-      { title: "Flutter", url: "https://flutter.dev/" },
       { title: "Graphql", url: "https://graphql.org/" },
     ],
     imageSrc: "/assets/tanaku.png",
@@ -76,8 +76,12 @@ export const projects: ProjectInfo[] = [
     company: "Slash",
     imageSrc: "/assets/hiapp.png",
     tags: [
-      { title: "BLOC", url: "https://bloclibrary.dev/" },
       { title: "Flutter", url: "https://flutter.dev/" },
+      {
+        title: "Clean Architecture",
+        url: "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
+      },
+      { title: "BLOC", url: "https://bloclibrary.dev/" },
       { title: "GraphQL", url: "https://graphql.org/" },
       { title: "MongooseIM", url: "https://mongooseim.readthedocs.io/" },
       { title: "XMPP", url: "https://xmpp.org/" },
@@ -94,6 +98,7 @@ export const projects: ProjectInfo[] = [
     finishedAt: new Date("2020-12-20"),
     tags: [
       { title: "Flutter", url: "https://flutter.dev/" },
+      { title: "MVC", url: "#" },
       { title: "GeoLocator", url: "https://pub.dev/packages/geolocator" },
       { title: "Hive", url: "https://pub.dev/packages/hive" },
       { title: "Rest API", url: "https://restfulapi.net/" },
